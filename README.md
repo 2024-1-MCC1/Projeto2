@@ -8,7 +8,7 @@
 
 ## Nome do Grupo: Sereia
 
-## Integrantes: <a href="https://www.linkedin.com/in/kauan-rocha-dias-9286b02a2/">Kauan Rocha Dias</a>, <a href="https://www.linkedin.com/in/caroliny-rossi-bittencourt-2774671b6/">Caroliny Rossi Bittencourt</a>, <a href="https://github.com/lucasmaciel2006">Lucas Maciel</a>
+## Integrantes: <a href="https://www.linkedin.com/in/kauan-rocha-dias-9286b02a2/">Kauan Rocha Dias</a>, <a href="https://www.linkedin.com/in/caroliny-rossi-bittencourt-2774671b6/">Caroliny Rossi Bittencourt</a>, <a href="https://github.com/lucasmaciel2006">Lucas Silva Maciel</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Queiroz</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>, <a href="https://www.linkedin.com/in/fabiano-on%C3%A7a-3214a12/">Fabiano Alves Onça</a>
 
@@ -19,11 +19,7 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
+O jogo "Sereia Sustentável" tem como objetivo conscientizar as pessoas sobre a importância da coleta de lixo nas praias para preservar a vida marinha. Através deste jogo, os jogadores assumem o papel de uma sereia encarregada de limpar as praias. Ao recolher o lixo espalhado pela praia e pelo mar, os jogadores não só ganham pontos, mas também aprendem sobre a fragilidade dos ecossistemas marinhos. Este jogo está diretamente relacionado com a ODS número 14 da ONU, que aborda a conservação e o uso sustentável dos oceanos e dos recursos marinhos para um futuro mais próspero e equilibrado.
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -100,28 +96,58 @@ Coloque código do prompt de comnando se for necessário
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 0.0.1 - 03/04/2024
+    * MUDANÇA: Movimentação do Player
+* 0.0.2 - 11/04/2024
+    * MUDANÇA: Separação de modelos adequados
+* 0.0.3 - 18/04/2024
+    * MUDANÇA: Interação com itens
+    * MUDANÇA: Tela inicial
+* 0.0.4- 19/04/2024
+    * MUDANÇA: Animações
+* 0.0.5 - 24/04/2024
+    * MUDANÇA: Temporizador
+* 0.0.6 - 08/05/2024
+    * MUDANÇA: Pontuação
+    * MUDANÇA: Mapa
+    * Primeira versão jogável
+* 0.0.7 - 10/05/2024
+    * MUDANÇA: Movimentação do segurança
+* 0.0.8 - 15/05/2024
+    * MUDANÇA: Slides para a apresentação
+* 0.0.9 - 17/05/2024
+    * MUDANÇA: Campo de visão do inimigo
+    * MUDANÇA: Tela de vitória
+    * MUDANÇA: Botão de Restart em todas as telas
+* 0.1.0 - 19/05/2024
+    * MUDANÇA: Sons do jogo e do inimigo
+    * MUDANÇA: Ambientação de mapa
+* 0.1.1 - 20/05/2024
+    * MUDANÇA: Adição da tirinha
+  
+  
+
+ 
 
 ## 📋 Licença/License
-
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-1-MCC1/Projeto2">Sereia Sustentável</a> by <span property="cc:attributionName">FECAP, Caroliny Rossi Bittencourt, Kauan Rocha Dias, Lucas Silva Maciel</span> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 ## 🎓 Referências
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+1. <https://youtu.be/4mzbDk4Wsmk?si=bwiatW8qhV0sKqb5>
+2. <https://brasil.un.org/pt-br/sdgs/14>
+3. <https://www.youtube.com/watch?v=EfUCEwKmcjc&t=629s>
+4. <https://www.youtube.com/watch?v=pKFtyaAPzYo>
+5. <https://skfb.ly/oDVSF>
+6. <https://sketchfab.com/3d-models/chicken-gun-pirateislands-9007a4e1b29f478fa8962fe9ff80ba7f>
+7. <https://sketchfab.com/3d-models/abe-sapien-3b0a1bcc2fff4b209ba22021673f3bc9>
+8. <https://sketchfab.com/3d-models/fruit-ice-768c2683212148f0a23fb92da5e36997>
+9. <https://skfb.ly/oBDEZ>
+10. <https://skfb.ly/ouAW6>
+11. <https://sketchfab.com/3d-models/ice-cream-food-cart-60b72bdcd1a445abbef6a3a2cbf7de5e>
+12. <https://sketchfab.com/3d-models/soda-cans-4e0be610db9646929d8be84491f1a72f#download>
+13. <https://sketchfab.com/3d-models/beach-umbrella-1014ad7c8a4c4aa8ba5e88fc6151aa4f>
+14. <https://sketchfab.com/3d-models/red-beach-umbrella-86f58a6d1b434b11a4830c4c43d1f52d>
+15. Sons utilizados: <a href="https://www.youtube.com/watch?v=K9NflzFtHR8&pp=ygUOYmFydWxobyBkZSBtYXI%3D"> Som do mar </a> e <a href="https://www.youtube.com/watch?v=sAmr78nAQog"> Som do Robô </a>, <a href="https://www.youtube.com/watch?v=wJpCFIUG0sQ"> Música de derrota</a> e <a href="https://www.youtube.com/watch?v=wJpCFIUG0sQ"> Música de Vitória</a> todas com Licença CC 0.
