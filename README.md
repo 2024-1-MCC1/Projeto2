@@ -35,6 +35,8 @@
 &emsp; ● 17- Parcerias e Meios de Implementação
 
 ## Tipo de projeto
+● Atividade de Extensão não implementado na prática (proposta de intervenção) ✓ 
+● Atividade de Extensão implementado na prática (intervenção executada) ✓ 
 
 
 ## Descrição
@@ -73,59 +75,12 @@ O jogo "Sereia Sustentável" tem como objetivo conscientizar as pessoas sobre a 
   &emsp; &emsp;|--> Player<br>
   &emsp;|--> SFX<br>
   
-
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
-<b>imagens</b>: Imagens do sistema
-
-<b>src</b>: Pasta que contém o código fonte.
-
 ## 🛠 Instalação
-
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
 
 <b>Windows:</b>
 
 Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
-
-## 💻 Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
--<a href="https://godotengine.org/download">GODOT</a>
-
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
+Encontre SereiaSustentável.exe na pasta executáveis e execute-o como qualquer outro programa.
 
 ## 🗃 Histórico de lançamentos
 
@@ -186,3 +141,5 @@ Aqui estão as referências usadas no projeto.
 13. <https://sketchfab.com/3d-models/beach-umbrella-1014ad7c8a4c4aa8ba5e88fc6151aa4f>
 14. <https://sketchfab.com/3d-models/red-beach-umbrella-86f58a6d1b434b11a4830c4c43d1f52d>
 15. Sons utilizados: <a href="https://www.youtube.com/watch?v=K9NflzFtHR8&pp=ygUOYmFydWxobyBkZSBtYXI%3D"> Som do mar </a> e <a href="https://www.youtube.com/watch?v=sAmr78nAQog"> Som do Robô </a>, <a href="https://www.youtube.com/watch?v=wJpCFIUG0sQ"> Música de derrota</a> e <a href="https://www.youtube.com/watch?v=wJpCFIUG0sQ"> Música de Vitória</a> todas com Licença CC 0.
+16. Chat GPT e Black Box
+17. Curso de Unity da Alura
