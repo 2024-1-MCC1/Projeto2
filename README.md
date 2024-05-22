@@ -81,6 +81,9 @@ O jogo "Sereia Sustentável" tem como objetivo conscientizar as pessoas sobre a 
 
 Não há instalação! Apenas executável!
 Encontre SereiaSustentável.exe na pasta executáveis e execute-o como qualquer outro programa.
+```sh
+https://github.com/2024-1-MCC1/Projeto2/blob/main/SereiaSustent%C3%A1vel/SereiaSustent%C3%A1vel.exe
+```
 
 ## 🗃 Histórico de lançamentos
 
@@ -114,6 +117,7 @@ A cada atualização os detalhes devem ser lançados aqui.
     * MUDANÇA: Ambientação de mapa
 * 0.1.1 - 20/05/2024
     * MUDANÇA: Adição da tirinha
+
   
   
 
