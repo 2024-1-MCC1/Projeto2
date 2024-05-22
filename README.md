@@ -12,6 +12,31 @@
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Queiroz</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>, <a href="https://www.linkedin.com/in/fabiano-on%C3%A7a-3214a12/">Fabiano Alves Onça</a>
 
+## Curso: Ciência da Computação 1° Semestre Matutino
+## Projeto Interdisciplinar
+## Objetivos do Desenvolvimento Sustentável
+
+&emsp; ● 1- Erradicação da Pobreza
+&emsp; ● 2- Fome Zero
+&emsp; ● 3- Saúde e Bem Estar 
+&emsp; ● 4- Educação de Qualidade
+&emsp; ● 5- Igualdade de Gênero
+&emsp; ● 6- Água Potável e Saneamento 
+&emsp; ● 7- Energia Limpa e Acessível
+&emsp; ● 8- Trabalho Decente e Crescimento Econômico
+&emsp; ● 9- Indústria, Inovação e Infraestrutura
+&emsp; ● 10- Redução das Desigualdades 
+&emsp; ● 11-Cidades e Comunidades Sustentáveis 
+&emsp; ● 12- Consumo e Produção Responsáveis
+&emsp; ● 13- Ação Contra a Mudança Global do Clima
+&emsp; ● 14- Vida na Água ✓
+&emsp; ● 15- Vida Terrestre ✓
+&emsp; ● 16- Paz, Justiça e Instituições Eficazes 
+&emsp; ● 17- Parcerias e Meios de Implementação
+
+## Tipo de projeto
+
+
 ## Descrição
 
 <p align="center">
@@ -26,18 +51,28 @@ O jogo "Sereia Sustentável" tem como objetivo conscientizar as pessoas sobre a 
 
 -Raiz<br>
 |<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
+|-->Assets<br>
+  &emsp;|-->Image<br>
+  &emsp;|--> Materials<br>
+  &emsp; &emsp;|--> Enemy<br>
+  &emsp;|--> Models<br>
+  &emsp; &emsp;|--> Lixos<br>
+  &emsp; &emsp; &emsp;|--> Materials<br>
+  &emsp; &emsp;|--> Mapa<br>
+  &emsp; &emsp; &emsp;|--> ObjetosMapa<br>
+  &emsp; &emsp;|--> Materials<br>
+  &emsp; &emsp; &emsp;|--> Materials<br>
+  &emsp; &emsp;|--> Player<br>
+  &emsp; &emsp; &emsp;|--> Texture<br>
+  &emsp; &emsp;|--> Seguranca<br>
+  &emsp; &emsp; &emsp;|--> Source<br>
+  &emsp;|--> Resources<br>
+  &emsp;|--> Scenes<br>
+  &emsp;|--> Scripts<br>
+  &emsp; &emsp;|--> Lixos<br>
+  &emsp; &emsp;|--> Player<br>
+  &emsp;|--> SFX<br>
+  
 
 A pasta raiz contem dois arquivos que devem ser alterados:
 
