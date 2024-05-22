@@ -8,11 +8,16 @@ public class ControlaMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("game");
+        SceneManager.LoadScene("game");//aqui faz com que a tela "game" seja carregada
     }
 
     public void QuitGame()
     {
-        Application.Quit();
+        Application.Quit(); //aqui faz com que o jogo seja fechado
+    }
+
+    public void HistoryGame()
+    {
+        SceneManager.LoadScene("History");//aqui faz com que a tela "History" seja carregada
     }
 }

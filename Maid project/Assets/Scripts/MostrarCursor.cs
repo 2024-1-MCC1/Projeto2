@@ -4,7 +4,8 @@ public class MostrarCursor : MonoBehaviour
 {
     void Start()
     {
-        // Torna o cursor do mouse vis�vel
+        //Esse código serve para as telas de game over e tela de vitória
+        // Torna o cursor do mouse vis�vel
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }

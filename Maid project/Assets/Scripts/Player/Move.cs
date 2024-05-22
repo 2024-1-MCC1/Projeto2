@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    public float velocity = 2.0f;
-    public float rotation = 500.0f;
+    public float velocity = 2.0f; // velocidade do personagem
+    public float rotation = 500.0f; //valor da sensibilidade do mouse
     public float rotationVertical = 500.0f; // Nova vari�vel para a velocidade de rota��o vertical
 
     public float maxVerticalAngle = 30.0f; // Limite m�ximo de rota��o vertical
@@ -18,7 +18,7 @@ public class Move : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked; //Prende o cursor na tela
         anim = GetComponent<Animator>();
         cameraTransform = Camera.main.transform; // Obt�m o transform da c�mera principal
 
@@ -33,10 +33,11 @@ public class Move : MonoBehaviour
 
     void Update()
     {
-        float x = Input.GetAxis("Horizontal");
+        float x = Input.GetAxis("Horizontal"); //da a movimentação do personagem na vertical e na horizontal
         float y = Input.GetAxis("Vertical");
 
-        float mouseX = Input.GetAxis("Mouse X");
+        float mouseX = Input.GetAxis("Mouse X"); // Obt�m o movimento do mouse na horizontal
+
         float mouseY = Input.GetAxis("Mouse Y"); // Obt�m o movimento do mouse na vertical
 
         Vector3 dir = new Vector3(x, 0, y) * velocity;
@@ -71,6 +72,28 @@ public class Move : MonoBehaviour
         }
 
         if (Input.GetKeyUp(KeyCode.S))
+        {
+            anim.SetInteger("transition", 0);
+        }
+
+        //Animação andar A
+        if (Input.GetKey(KeyCode.A))
+        {
+            anim.SetInteger("transition", 1);
+        }
+
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            anim.SetInteger("transition", 0);
+        }
+
+        //Animação andar D
+        if (Input.GetKey(KeyCode.D))
+        {
+            anim.SetInteger("transition", 1);
+        }
+
+        if (Input.GetKeyUp(KeyCode.D))
         {
             anim.SetInteger("transition", 0);
         }

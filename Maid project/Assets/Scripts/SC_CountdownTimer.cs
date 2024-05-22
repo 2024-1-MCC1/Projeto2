@@ -7,10 +7,9 @@ using UnityEngine.SceneManagement;
 public class SC_CountdownTimer : MonoBehaviour
 {
     public enum CountdownFormatting { DaysHoursMinutesSeconds, HoursMinutesSeconds, MinutesSeconds, Seconds };
-    public CountdownFormatting countdownFormatting = CountdownFormatting.MinutesSeconds; //Controls the way the timer string will be formatted
-    public bool showMilliseconds = true; //Whether to show milliseconds in countdown formatting
-    public double countdownTime = 90; //Countdown time in seconds
-
+    public CountdownFormatting countdownFormatting = CountdownFormatting.MinutesSeconds; //Controla a forma como a string do temporizador será formatada
+    public bool showMilliseconds = true; //Se deve mostrar milissegundos na formatação de contagem regressiva
+    public double countdownTime = 90; //Deixa o contador em segundos
     Text countdownText;
     double countdownInternal;
     bool countdownOver = false;
@@ -19,7 +18,7 @@ public class SC_CountdownTimer : MonoBehaviour
     void Start()
     {
         countdownText = GetComponent<Text>();
-        countdownInternal = countdownTime; //Initialize countdown
+        countdownInternal = countdownTime; //Inicia o Contador no começo da cena
     }
 
     void FixedUpdate()
@@ -28,7 +27,7 @@ public class SC_CountdownTimer : MonoBehaviour
         {
             countdownInternal -= Time.deltaTime;
 
-            //Clamp the timer value so it never goes below 0
+            //Deixa o contador fixado em 0 para que ele não fique negativo
             if (countdownInternal < 0)
             {
                 countdownInternal = 0;
@@ -38,6 +37,7 @@ public class SC_CountdownTimer : MonoBehaviour
         }
         else
         {
+            //aqui faz com que quando o contador chegue a 0 a tela troque para a tela de Game Over
             if (!countdownOver)
             {
                 countdownOver = true;
@@ -46,11 +46,11 @@ public class SC_CountdownTimer : MonoBehaviour
 
                 Debug.Log("Countdown has finished running...");
 
-                //Your code here...
             }
         }
     }
 
+    //essa parte faz com que o contador apareça da seguinte maneira Horas:Minutor:segundos:milésimos
     string FormatTime(double time, CountdownFormatting formatting, bool includeMilliseconds)
     {
         string timeText = "";

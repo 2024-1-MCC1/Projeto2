@@ -3,15 +3,16 @@ using System.Collections;
 
 public class PositionLerp : MonoBehaviour
 {
-    public float distanceThreshold = 5.0f;
-    public Vector3 destinationPosition = new Vector3(10000f, 1000f, 0f);
-    public float velocity = 5.0f;
+    public float distanceThreshold = 5.0f; //distancia mínima para poder pegar o lixo
+    public Vector3 destinationPosition = new Vector3(10000f, 1000f, 0f); //coordenada que faz com que o item "suma"
+    public float velocity = 5.0f; //velocidade para o item se mover para a coordenada
     private bool move = false;
-    public Vector3 initialPosition = new Vector3(0f, 0f, 0f);
-    public float delayBeforeDisappear = 1.0f;
+    public Vector3 initialPosition = new Vector3(0f, 0f, 0f); //coordenada inicial para o item
+    public float delayBeforeDisappear = 1.0f; //delay para o tem sumir (1 segundo)
 
     void Update()
     {
+        //parte que faz com que quando você aperte o botão "E"
         if (Input.GetKeyDown(KeyCode.E))
         {
             Move playerMoveScript = FindObjectOfType<Move>();
@@ -34,7 +35,7 @@ public class PositionLerp : MonoBehaviour
             velocity * Time.deltaTime
         );
     }
-
+        //Aqui faz com que o delay funcione
     IEnumerator StartMovementWithDelay()
     {
         yield return new WaitForSeconds(delayBeforeDisappear);
