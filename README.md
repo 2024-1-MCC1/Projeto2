@@ -10,7 +10,7 @@
 
 ## Integrantes: <a href="https://www.linkedin.com/in/kauan-rocha-dias-9286b02a2/">Kauan Rocha Dias</a>, <a href="https://www.linkedin.com/in/caroliny-rossi-bittencourt-2774671b6/">Caroliny Rossi Bittencourt</a>, <a href="https://github.com/lucasmaciel2006">Lucas Silva Maciel</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Queiroz</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>, <a href="https://www.linkedin.com/in/fabiano-on%C3%A7a-3214a12/">Fabiano Alves Onça</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Quiroz</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>, <a href="https://www.linkedin.com/in/fabiano-on%C3%A7a-3214a12/">Fabiano Alves Onça</a>
 
 ## Curso: Ciência da Computação 1° Semestre Matutino
 ## Projeto Interdisciplinar
