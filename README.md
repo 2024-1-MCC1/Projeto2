@@ -51,29 +51,16 @@ O jogo "Sereia Sustentável" tem como objetivo conscientizar as pessoas sobre a 
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
+-Raiz <br>
 |<br>
-|-->Assets<br>
-  &emsp;|-->Image<br>
-  &emsp;|--> Materials<br>
-  &emsp; &emsp;|--> Enemy<br>
-  &emsp;|--> Models<br>
-  &emsp; &emsp;|--> Lixos<br>
-  &emsp; &emsp; &emsp;|--> Materials<br>
-  &emsp; &emsp;|--> Mapa<br>
-  &emsp; &emsp; &emsp;|--> ObjetosMapa<br>
-  &emsp; &emsp;|--> Materials<br>
-  &emsp; &emsp; &emsp;|--> Materials<br>
-  &emsp; &emsp;|--> Player<br>
-  &emsp; &emsp; &emsp;|--> Texture<br>
-  &emsp; &emsp;|--> Seguranca<br>
-  &emsp; &emsp; &emsp;|--> Source<br>
-  &emsp;|--> Resources<br>
-  &emsp;|--> Scenes<br>
-  &emsp;|--> Scripts<br>
-  &emsp; &emsp;|--> Lixos<br>
-  &emsp; &emsp;|--> Player<br>
-  &emsp;|--> SFX<br>
+|-->Documents<br>
+|-->Executável <br>
+&emsp;|-->windows<br>
+&emsp;&emsp;|-->SereiaSustentável<br>
+|-->src<br> 
+&emsp; |-->Frontend<br>
+&emsp; &emsp; |-->Maid project<br>
+
   
 ## 🛠 Instalação
 
